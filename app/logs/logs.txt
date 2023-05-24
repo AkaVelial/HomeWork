@@ -1,0 +1,14 @@
+2023-05-22 04:13:48,934 - INFO - Command: show all
+2023-05-22 04:14:00,210 - INFO - Command: address book loaded from test_book1.bin
+2023-05-22 04:14:03,674 - INFO - Command: show all
+2023-05-22 04:15:06,171 - INFO - Command: help
+2023-05-22 05:11:48,739 - INFO - Command: hello
+2023-05-22 05:11:52,358 - INFO - Command: help
+2023-05-22 05:12:03,074 - INFO - Command: add contact name:Alina, phone:['095999999999']
+2023-05-22 05:12:13,186 - WARNING - Invalid command
+2023-05-22 05:12:15,716 - WARNING - Invalid command
+2023-05-22 05:12:16,918 - WARNING - Invalid command
+2023-05-22 05:12:21,696 - WARNING - Invalid command
+2023-05-22 05:47:13,910 - INFO - Command: help
+2023-05-22 05:47:27,099 - INFO - Command: add contact name:Alina, phone:['0957772255']
+2023-05-22 05:47:35,329 - INFO - Command: show all

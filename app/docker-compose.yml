@@ -1,0 +1,17 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3000:5000
+    restart: always  # Перезапуск контейнера всегда, если он выходит из строя или перезагружается
+    environment:
+      - TZ=Europe/Kyiv  # Установка переменной окружения часового пояса
+    logging:
+      driver: "json-file"  # Использование драйвера логирования в формате JSON
+      options:
+        max-size: "10m"  # Максимальный размер лог-файла
+        max-file: "3"    # Максимальное количество лог-файлов
+
